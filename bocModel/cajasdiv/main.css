@@ -1,0 +1,24 @@
+body{
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+}
+.caja{
+    text-align: center;
+    width: 300px;
+    background-color: yellow;
+    padding: 5px ;
+    border: 1px solid black;
+    border-width: 5px 1px 1px 1px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.caja2{
+    width: 300px;
+    background-color: yellow;
+    padding: 5px ;
+    border: 1px solid black;
+    border-width: 5px 1px 1px 1px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
