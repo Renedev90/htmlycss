@@ -18,5 +18,36 @@
 }
 .parrafo{
     width: 200px;
-    clear: both;
+    clear: left;
+}
+
+.seccion_relativa{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+}
+
+.box_absolute{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: purple;
+    top: 0px;
+    right: 0px;
+
+}
+
+.seccion_fija{
+    width: 100%;
+    height:60px;
+    background-color: red;
+    position: fixed;
+}
+.seccion_sticky{
+    width: 100%;
+    height:60px;
+    background-color: goldenrod;
+    position: sticky;
+    top: 0;
 }
