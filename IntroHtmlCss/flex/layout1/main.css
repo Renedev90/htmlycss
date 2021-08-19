@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box; 
+    text-align: center;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #contenido {
+    display: flex;
+    flex: 1;
+  }
+  #contenido > article {
+    flex: 1;
+  }
+  #contenido > nav, 
+  #contenido > aside {
+    flex: 0 0 20vw;
+    background: salmon;
+  }
+  #contenido > nav {
+    order: -1;
+  }
+  header, footer {
+    background: yellow;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
