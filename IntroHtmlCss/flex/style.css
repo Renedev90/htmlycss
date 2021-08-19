@@ -32,3 +32,10 @@
     order: 4;
     flex-grow: 3;
   }
+  .once{
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  .uno{
+    flex-shrink: 3;
+  }
